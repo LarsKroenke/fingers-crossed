@@ -1,0 +1,16 @@
+\documentclass[12pt]{article}
+\usepackage{blindtext}
+\usepackage[
+    backend=biber, % Backend für BibLaTeX
+    style=ieee, % Zitierstil
+    sorting=nty % Sortierung der Einträge
+]{biblatex}
+\addbibresource{Literatur.bib} % BibLaTeX-Datenbank
+
+\begin{document}
+\section{Romani ite domum}
+\blindtext \cite{riemenschneider1939methods}
+
+\printbibliography
+
+\end{document}
